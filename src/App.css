@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600&display=swap");
+
+/* font-family: 'Fira Code', monospace;
+font-family: 'Inter', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color-main);
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --bg-color-main: #0a192fd9;
+  --text-color: #8892b0;
+  --title-color: #ccd6f6;
+  --btn-border: #64ffda;
+  /* --color-0b0c10: #0b0c10;
+  --color-1f2833: #1f2833;
+  --color-c5c6c7: #c5c6c7; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: var(--bg-color-main);
+  flex-direction: column;
+  font-family: "Fira Code", monospace;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  background-color: var(--bg-color-main);
+  color: var(--btn-border);
+  border: 1px solid var(--btn-border);
+  font-family: "Fira Code", monospace;
+  padding: 8px 16px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 20px;
+  top: 45vh;
+  color: var(--title-color);
+  gap: 20px;
+  cursor: pointer;
 }

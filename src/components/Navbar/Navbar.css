@@ -1,0 +1,45 @@
+
+.navbar{
+  font-family: 'Fira Code', monospace;
+  background-color: #0a1930;
+  width: 100%;
+  height: 12vh;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 5rem;
+  position: fixed;
+  top: 0;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.logo-container span{
+  font-size: 18px;
+}
+
+.logo{
+  height: 45px;
+  border-radius: 50%;
+}
+
+ul{
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  font-size: 13px;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+

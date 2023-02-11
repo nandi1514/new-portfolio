@@ -1,0 +1,47 @@
+.projects{
+  padding: 0 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project-image{
+  flex: 5;
+}
+
+.project-image img{
+  width: 100%;
+  opacity: 1;
+  background-color: var(--btn-border);
+}
+
+.project-text{
+  flex: 5;
+  text-align: right;
+}
+
+.other-projects{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.small-project-card{
+  border: 1px solid var(--text-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.small-project-card .title{
+}

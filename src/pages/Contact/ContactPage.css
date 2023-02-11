@@ -1,0 +1,30 @@
+.contactPage {
+  height: 100vh;
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contactPage .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column !important;
+  gap: 20px;
+}
+
+.contact-text {
+  line-height: 1.5;
+  gap: 30px;
+  color: var(--text-color);
+  margin-bottom: 5rem;
+}
+
+.contactPage .btn{
+  padding: 10px 30px;
+  font-size: 18px;
+}
